@@ -46,7 +46,8 @@ public class Acao implements II_Ibovespa {
 
     @Override
     public void ordenar(ArrayList<Acao> acoes) {
-        //Dever de casa
+        //Patrick delfim borges
+    	// 0050016717
     	
     	java.util.Collections.sort(acoes,(s1,s2)-> compare(s1,s2));
     	System.out.println("Ordenado:");
